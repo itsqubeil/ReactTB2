@@ -13,7 +13,8 @@ function About() {
         </div>
       </div>
       <div>
-        <h1>ini adalah about</h1>
+        <h1>Restoran Sederhana berawal pada tahun 1972 dari sebuah rumah makan yang menjual masakan padang yang dimiliki oleh Bustaman
+             yang berasal dari Lintau, Sumatra Barat. Restoran Sederhana masakan padang ini pertama terletak pada Bendungan Hilir, Jakarta.</h1>
       </div>
     </>
   );

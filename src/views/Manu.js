@@ -12,7 +12,7 @@ import {
   LockClosedIcon,
 } from "@heroicons/react/24/outline";
 
-const Home = () => {
+const Menu = () => {
   return (
     <div>
       <Header />
@@ -23,4 +23,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Menu;

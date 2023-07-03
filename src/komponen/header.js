@@ -25,11 +25,14 @@ export default function Header() {
           >
             Menu
           </a>
-          <a href="#" className="text-md font-semibold leading-6 text-red-800">
-            Perhitungan Pemesanan
+          <a
+            href="/resto"
+            className="text-md font-semibold leading-6 text-red-800"
+          >
+            Tentang Kami
           </a>
           <a href="#" className="text-md font-semibold leading-6 text-red-800">
-            Tentang Kami
+            Our Developer
           </a>
         </div>
       </nav>

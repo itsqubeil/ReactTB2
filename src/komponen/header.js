@@ -26,7 +26,7 @@ export default function Header() {
             Menu
           </a>
           <a
-            href="/resto"
+            href="/Resto"
             className="text-md font-semibold leading-6 text-red-800"
           >
             Tentang Kami

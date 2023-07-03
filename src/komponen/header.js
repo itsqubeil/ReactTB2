@@ -9,7 +9,7 @@ export default function Header() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Sederhana</span>
             <img
               className="h-8 w-auto"
@@ -19,7 +19,10 @@ export default function Header() {
           </a>
         </div>
         <div className="flex gap-x-12">
-          <a href="#" className="text-md font-semibold leading-6 text-red-800">
+          <a
+            href="/menu"
+            className="text-md font-semibold leading-6 text-red-800"
+          >
             Menu
           </a>
           <a href="#" className="text-md font-semibold leading-6 text-red-800">

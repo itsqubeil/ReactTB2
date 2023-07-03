@@ -40,13 +40,13 @@ const products = [
   },
   {
     id: 3,
-    name: "Telor Balado",
+    name: "Gulai Ayam",
     imageSrc:
-      "https://resepkoki.id/wp-content/uploads/2019/11/Telur-Balado.jpg",
-    imageAlt: "Ini gambar telor pedas",
-    price: "Rp15.000,00.",
+      "https://i0.wp.com/resepkoki.id/wp-content/uploads/2016/04/Resep-Gulai-Ayam.jpg?fit=1920%2C1828&ssl=1",
+    imageAlt: "Gulai",
+    price: "Rp25.000,00.",
     extra: "Dengan Nasi",
-    pricee: "Rp25.000,00.",
+    pricee: "Rp35.000,00.",
   },
   // More products...
 ];

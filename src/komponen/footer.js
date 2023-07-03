@@ -34,7 +34,7 @@ function Footer() {
         </nav>
         <div class="flex justify-center space-x-6">
           <div class="py-2 text-base leading-6 text-red-800">Kontak Kami :</div>
-          <a href="#" class="text-red-800 hover:text-red-700">
+          <a href="https://www.facebook.com/RestoranSederhana/" class="text-red-800 hover:text-red-700">
             <span class="sr-only">Facebook</span>
             <svg
               class="w-10 h-10"
@@ -49,7 +49,7 @@ function Footer() {
               ></path>
             </svg>
           </a>
-          <a href="#" class="text-red-800 hover:text-red-700">
+          <a href="https://www.instagram.com/sederhana_masakanpadang/" class="text-red-800 hover:text-red-700">
             <span class="sr-only">Instagram</span>
             <svg
               class="w-10 h-10"

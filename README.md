@@ -71,8 +71,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # Credits
 * [![Kelompok 8]
-* [DAFFA IAN NABIL][2207411029](https://github.com/itsqubeil)
-* [RIO ADITYA MUKTI][2207411020](https://github.com/RioAdityaMukti)
+* [DAFFA IAN NABIL](https://github.com/itsqubeil)  [2207411029]
+* [RIO ADITYA MUKTI](https://github.com/RioAdityaMukti)  [2207411020]
 
 > Made with 💕 by [KELOMPOK 8]. 
 # ReactTB2

@@ -10,7 +10,7 @@ function About() {
           <Link to="/">Home</Link>
           <Link to="/About">About</Link>
           <Link to="/Contact">Contact</Link>
-          <Link to="/developer>Our Developer</Link>
+          <Link to="/developer">Our Developer</Link>
         </div>
       </div>
       <div>

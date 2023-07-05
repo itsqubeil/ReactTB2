@@ -10,15 +10,12 @@ function developer() {
           <Link to="/">Home</Link>
           <Link to="/About">About</Link>
           <Link to="/Contact">Contact</Link>
+          <Link to="/developer>Our Developer</link>
         </div>
       </div>
       <div>
-        <h1>Restoran Sederhana berawal pada tahun 1972 dari sebuah rumah makan Padang kecil milik Bustaman di Pasar Bendungan Hilir, Jakarta. 
-            Dalam mengelola restorannya, Bustaman yang berasal dari Lintau, Sumatra Barat, selalu menyesuaikannya dengan lidah orang kebanyakan,
-            sehingga ia mengurangi rasa pedas dalam masakan Padang buatannya. Ia juga memiliki hidangan khusus, yakni Ayam Pop yang telah dikenal luas
-            
-            Saat ini, lebih dari 100 restoran Sederhana tersebar di berbagai kota di Indonesia dan Malaysia. Restoran Sederhana telah membuka outletnya di setiap provinsi di Indonesia, kecuali Provinsi Papua. 
-            Hingga saat ini, jaringan Restoran Sederhana adalah jaringan rumah makan Padang terbesar di Indonesia
+        <h1>Website ini dibuat untuk memenuhi tugas TB 2 yang bertema kuliner dan kelompok saya mengambil tema kuliner yang ada di restoran
+            sederhana masakan Padang
         </h1>
       </div>
     </>

@@ -16,7 +16,7 @@ const Home = () => {
     <div>
       <Header />
       <div className=" bg-cover bg-top bg-no-repeat bg-fixed bg-[url(https://cdn.discordapp.com/attachments/1127438022732951704/1127446464029806715/rumah-makan-sederhana-e1677678042499-1024x586.jpg)]">
-        <div className="py-5 sm:py-10">
+        <div className="py-0.5 lg:py-5">
           <div className="mx-auto max-w-8xl px-6 lg:px-8">
             <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto mt-20 mb-20 max-w-2xl lg:max-w-4xl gap-10 ">
               <img

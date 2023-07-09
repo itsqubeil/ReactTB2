@@ -31,7 +31,10 @@ export default function Header() {
           >
             Tentang Kami
           </a>
-          <a href="/developer" className="text-md font-semibold leading-6 text-red-800">
+          <a
+            href="/Developer"
+            className="text-md font-semibold leading-6 text-red-800"
+          >
             Our Developer
           </a>
         </div>

@@ -7,12 +7,15 @@ import Home from "./views/Home";
 import Menu from "./views/Manu";
 import Resto from "./views/Resto";
 import Developer from "./views/developer";
+import Lokasi from "./views/Lokasi";
+
 function App() {
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Menu" element={<Menu />} />
+        <Route path="/Lokasi" element={<Lokasi />} />
         <Route path="/Resto" element={<Resto />} />
         <Route path="/developer" element={<Developer />} />
         {/* <Route path="/Contact" element={<Contact />} /> */}

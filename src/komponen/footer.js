@@ -1,46 +1,56 @@
 import "../App.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 
 function Footer() {
   return (
-    <section class="bg-yellow-500">
-      <div class="font-karla max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
-        <nav class="flex flex-wrap justify-center -mx-5 -my-2">
-          <div class="px-5 py-2">
-            <a
-              href="/menu"
-              class="text-base leading-6 text-red-800 hover:text-red-700"
+    <section className="bg-yellow-500">
+      <div className="font-karla max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
+        <nav className="flex flex-wrap justify-center -mx-5 -my-2">
+          <div className="px-5 py-2">
+            <NavLink
+              to="/menu"
+              className="text-base leading-6 text-red-800 hover:text-red-700"
             >
               Menu
-            </a>
+            </NavLink>
           </div>
-          <div class="px-5 py-2">
-            <a
-              href="/Resto"
-              class="text-base leading-6 text-red-800 hover:text-red-700"
+          <div className="px-5 py-2">
+            <NavLink
+              to="/lokasi"
+              className="text-md font-semibold leading-6 text-red-800"
+            >
+              Lokasi
+            </NavLink>
+          </div>
+          <div className="px-5 py-2">
+            <NavLink
+              to="/Resto"
+              className="text-base leading-6 text-red-800 hover:text-red-700"
             >
               Tentang Kami
-            </a>
+            </NavLink>
           </div>
-          <div class="px-5 py-2">
-            <a
-              href="/Developer"
-              class="text-base leading-6 text-red-800 hover:text-red-700"
+          <div className="px-5 py-2">
+            <NavLink
+              to="/Developer"
+              className="text-base leading-6 text-red-800 hover:text-red-700"
             >
               Our Developer
-            </a>
+            </NavLink>
           </div>
         </nav>
-        <div class="flex justify-center space-x-6">
-          <div class="py-2 text-base leading-6 text-red-800">Kontak Kami :</div>
-          <a
-            href="https://www.facebook.com/RestoranSederhana/"
-            class="text-red-800 hover:text-red-700"
+        <div className="flex justify-center space-x-6">
+          <div className="py-2 text-base leading-6 text-red-800">
+            Kontak Kami :
+          </div>
+          <NavLink
+            to="https://www.facebook.com/RestoranSederhana/"
+            className="text-red-800 hover:text-red-700"
           >
-            <span class="sr-only">Facebook</span>
+            <span className="sr-only">Facebook</span>
             <svg
-              class="w-10 h-10"
+              className="w-10 h-10"
               aria-hidden="true"
               fill="currentColor"
               viewBox="0 0 24 24"
@@ -51,14 +61,14 @@ function Footer() {
                 clip-rule="evenodd"
               ></path>
             </svg>
-          </a>
-          <a
-            href="https://www.instagram.com/sederhana_masakanpadang/"
-            class="text-red-800 hover:text-red-700"
+          </NavLink>
+          <NavLink
+            to="https://www.instagram.com/sederhana_masakanpadang/"
+            className="text-red-800 hover:text-red-700"
           >
-            <span class="sr-only">Instagram</span>
+            <span className="sr-only">Instagram</span>
             <svg
-              class="w-10 h-10"
+              className="w-10 h-10"
               aria-hidden="true"
               fill="currentColor"
               viewBox="0 0 24 24"
@@ -69,20 +79,12 @@ function Footer() {
                 clip-rule="evenodd"
               ></path>
             </svg>
-          </a>
-          <a href="#" class="text-red-800 hover:text-red-700">
-            <span class="sr-only">Twitter</span>
-            <svg
-              class="w-10 h-10"
-              aria-hidden="true"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
-            </svg>
-          </a>
-          <a href="#" class="text-red-800 hover:text-red-700">
-            <span class="sr-only">Twitter</span>
+          </NavLink>
+          <NavLink
+            to="mailto:daffa.ian.nabil.tik22@mhsw.pnj.ac.id"
+            className="text-red-800 hover:text-red-700"
+          >
+            <span className="sr-only">Mail</span>
             <svg
               className="w-10 h-10"
               aria-hidden="true"
@@ -98,10 +100,10 @@ function Footer() {
                 d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
               />
             </svg>
-          </a>
+          </NavLink>
         </div>
 
-        <p class="mt-8 text-base leading-6 text-center text-red-800">
+        <p className="mt-8 text-base leading-6 text-center text-red-800">
           © 2023 TugasBesar2, All rights reserved.
         </p>
       </div>

@@ -14,7 +14,7 @@ function Developer() {
             <div className="text-center font-gfont text-red-700 text-3xl mt-16">
               Tim Kami
             </div>
-            <div className="grid grid-cols-1 lg:grid-cols-3 mt-32 mb-32 mx-auto max-w-2xl lg:max-w-4xl gap-10 ">
+            <div className=" grid grid-cols-1 lg:grid-cols-3 mt-32 mb-32 mx-auto max-w-2xl lg:max-w-4xl gap-10 ">
               <img
                 src="https://cdn.discordapp.com/attachments/1127438022732951704/1127438842673246279/IMG-20230708-WA0022-picsay.jpg"
                 className="rounded-full"
@@ -27,7 +27,8 @@ function Developer() {
                   Rio Aditya Mukti
                 </p>
                 <p className="mt-6 text-lg leading-8 text-white font-momon">
-                  Deskripsi luwh coek
+                  Adalah seorang mahasiswa yang ingin mengejar cita cita dengan
+                  menjadi yang terbaik dan terdepan.
                 </p>
               </div>
             </div>

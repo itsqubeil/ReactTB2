@@ -20,7 +20,7 @@ const products = [
   {
     id: 1,
     name: "Ayam Pop",
-    href: "#",
+
     imageSrc:
       "https://www.masakapahariini.com/wp-content/uploads/2018/06/AYAM-POP-FINAL-DISH.jpg",
     imageAlt: "Pop",
@@ -63,7 +63,7 @@ const products2 = [
   {
     id: 1,
     name: "Rendang Daging",
-    href: "#",
+
     imageSrc:
       "https://img.jakpost.net/c/2020/07/07/2020_07_07_99643_1594104376._large.jpg",
     imageAlt: "Rendang",
@@ -107,7 +107,7 @@ const products3 = [
   {
     id: 1,
     name: "Ikan Kembung Goreng/Bakar",
-    href: "#",
+
     imageSrc: "https://i.ytimg.com/vi/9qt8_JASqf8/maxresdefault.jpg",
     imageAlt: "Ikan Kembung",
     price: "Rp25.000,00.",

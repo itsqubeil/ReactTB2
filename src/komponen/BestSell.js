@@ -20,7 +20,6 @@ const products = [
   {
     id: 1,
     name: "Rendang Daging",
-    href: "#",
     imageSrc:
       "https://img.jakpost.net/c/2020/07/07/2020_07_07_99643_1594104376._large.jpg",
     imageAlt: "Ini gambar rendang",

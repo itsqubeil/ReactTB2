@@ -8,6 +8,7 @@ import Menu from "./views/Manu";
 import Resto from "./views/Resto";
 import Developer from "./views/developer";
 import Lokasi from "./views/Lokasi";
+import $ from "jquery";
 
 function App() {
   return (

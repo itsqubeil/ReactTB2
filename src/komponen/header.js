@@ -37,12 +37,12 @@ export default function Header() {
           >
             Tentang Kami
           </NavLink>
-          <NavLink
+          {/* <NavLink
             to="/Developer"
             className="text-md font-semibold leading-6 text-red-800"
           >
             Our Developer
-          </NavLink>
+          </NavLink> */}
         </div>
       </nav>
     </header>
